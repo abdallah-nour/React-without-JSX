@@ -1,3 +1,6 @@
+// for more details
+// https://reactjs.org/docs/react-without-jsx.html
+
 const element = React.createElement(
   'h1',
   {
