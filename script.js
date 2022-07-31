@@ -1,12 +1,9 @@
-const element = React.createElement(
-  'h1',
-  {
-    className: 'container',
-  },
-  'WoW!',
-  React.createElement('br'),
-  "That's Cool 🚀"
+const Element = () => (
+  <h1>
+    {' '}
+    WoW! <br /> That's Cool 🚀{' '}
+  </h1>
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(element);
+root.render(<Element />);
